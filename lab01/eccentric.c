@@ -2,9 +2,11 @@
 
 /* Only change any of these 4 values */
 #define V0 0
-#define V1 -1
-#define V2 0
-#define V3 0
+#define V1 1
+#define V2 2
+#define V3 3
+#define V4 4
+#define V5 5
 
 int main(void) {
     int a;
@@ -16,14 +18,14 @@ int main(void) {
     printf("Berkeley eccentrics:\n====================\n");
 
     /* for loop */
-    for (a = 0; a < V0; a++)
+    for (a = 0; a < V3; a++)
     {
         printf("Happy ");
     }
     printf("\n");
 
     /* switch statement */
-    switch (V1)
+    switch (V3)
     {
     case 0:
         printf("Yoshua\n");
